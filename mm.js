@@ -21,6 +21,15 @@ const message2 = [" it’s the way you carry it.", " don’t ask what seat! Just
 
 const randomMessage = (arr1, arr2) => {
     return arr1[Math.floor(Math.random() * arr1.length -1)] + arr2[Math.floor(Math.random() * arr2.length -1)]
+
 }
 
 console.log(randomMessage(message1, message2));
+
+/*const text = () => {
+    document.getElementById("txt").innerHTML = randomMessage(arr1, arr2);
+}
+
+document.getElementById("newMsg").addEventListener("click", text);
+
+console.log(text);*/
