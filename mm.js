@@ -24,12 +24,10 @@ const randomMessage = (arr1, arr2) => {
 
 }
 
-console.log(randomMessage(message1, message2));
+//console.log(randomMessage(message1, message2));
 
-/*const text = () => {
-    document.getElementById("txt").innerHTML = randomMessage(arr1, arr2);
+const text = () => {
+    document.getElementById("txt").innerHTML = randomMessage(message1, message2);
 }
 
-document.getElementById("newMsg").addEventListener("click", text);
 
-console.log(text);*/
