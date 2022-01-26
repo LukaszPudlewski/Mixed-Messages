@@ -1,11 +1,15 @@
-* {
+body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: rgb(10, 132, 240);
+  color: rgb(74, 231, 95);
   background-color: blueviolet;
+  text-align: center;
+  font-size: 50px;
 }
 
 button {
   width: 200px;
   height: 100px;
+  color: seashell;
+  background-color: teal;
 }

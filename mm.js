@@ -20,7 +20,7 @@ const message2 = [" it’s the way you carry it.", " don’t ask what seat! Just
 ]
 
 const randomMessage = (arr1, arr2) => {
-    return arr1[Math.floor(Math.random() * arr1.length -1)] + arr2[Math.floor(Math.random() * arr2.length -1)]
+    return arr1[Math.floor(Math.random() * arr1.length )] + arr2[Math.floor(Math.random() * arr2.length )]
 
 }
 
