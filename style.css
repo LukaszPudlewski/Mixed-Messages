@@ -1,0 +1,11 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(10, 132, 240);
+  background-color: blueviolet;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+}
